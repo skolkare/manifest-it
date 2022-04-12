@@ -1,0 +1,8 @@
+body {
+  background-color: pink;
+}
+
+marquee {
+  text-align: center;
+  width: 50vw;
+}
