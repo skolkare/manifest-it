@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+}
+
+li {
+  list-style: none;
+}
+
+#start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: yellow;
+  z-index: 999;
+  color: black;
+  font-family: Cursive;
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}
+
+#comments {
+  width: 50vw;
+  height: 25vw;
+  background-size: 50vw;
+  margin: 0px 0px 100px 350px;
+}
+
+.webring {
+  background-color: yellow;
+  position: fixed;
+  z-index: 1000000;
+  bottom: 0;
+  font-family: "courier new";
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+}
+
+.webring a {
+  color: black;
+  font-weight: bold;
+  font-family: "courier new";
+  border-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow a {
+  color: black;
+  font-family: "courier new";
+  border-bottom: 0;
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow, .webringinfo {
+}
+
+
+
+
+#header {
+  background-color: white;
+  width: 50vw;
+  height: 40vw;
+  background-image: url(https://cdn.glitch.me/644310c2-8202-41b6-a84c-ab193a244ce9/Comp%201_1.gif?v=1649425524885);
+  background-size: 50vw;
+  margin: 40px 10px 0px 350px;
+}
+
+marquee {
+  text-align: center;
+  width: 50vw;
+}
+
+#enter {
+  width: 40vw;
+  height: 10vh;
+  background-size: 10vw;
+  margin: 100px 0px 0px 0px;
+  padding: 0px 10px 10px 10px;
+}

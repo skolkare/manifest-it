@@ -1,0 +1,8 @@
+body {
+  background-color: white;
+}
+
+marquee {
+  text-align: center;
+  width: 50vw;
+}
